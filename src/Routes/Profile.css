@@ -1,0 +1,135 @@
+.profile-card {
+  position: relative;
+  width: 375px;
+  height: 260px;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 6px #00000007;
+  opacity: 1;
+}
+.heading4{
+top: 27px;
+left: 15px;
+width: 170px;
+height: 22px;
+text-align: left;
+font: normal normal normal 18px/21px Rubik;
+font-size:20px;
+letter-spacing: 0px;
+color: #1D2226;
+text-transform: capitalize;
+opacity: 1;
+margin:27px 30px;
+font-weight: 400;
+}
+.navbar {
+  position: absolute;
+  top: 0px;
+  left: 0px;
+  width: 375px;
+  height: 68px;
+  background: #FFFFFF;
+  box-shadow: 0px 3px 6px #00000007;
+  opacity: 1;
+}
+
+.photo {
+  position: absolute;
+  top: 95px;
+  left: 20px;
+  width: 76px;
+  height: 76px;
+  background: transparent  0% 0% no-repeat padding-box;
+  opacity: 1;
+  
+}
+.camera-icon {
+  position: absolute;
+  bottom: -2px; 
+  right: -2px; 
+  width: 24px;
+  height: 24px;
+  opacity: 1;
+}
+.userimage{
+  position: absolute;
+  top: 0px;
+  left: 50px;
+  width: 73px;
+  height: 18px;
+  text-align: left;
+  font: normal normal medium 15px/19px Rubik;
+  letter-spacing: 0px;
+  color: #1D2226;
+  text-transform: capitalize;
+  opacity: 1;
+  img{
+    height:150%;
+    width:150%;
+  }
+}
+
+
+
+.name {
+  position: absolute;
+  top: 97px;
+  left:108px;
+  width: 85px;
+  height: 18px;
+  text-align: left;
+  font-family: 'Rubik';
+  letter-spacing: 0px;
+  color: #1D2226;
+  text-transform: capitalize;
+  opacity: 1;
+  font-size:18px;
+  font-weight: 500;
+}
+
+.email {
+  position: absolute;
+  top: 120px;
+  left: 108px;
+  width: 73px;
+  height: 18px;
+  text-align: right;
+  font: normal normal medium 15px/19px Rubik;
+  letter-spacing: 0px;
+  color: #1D2226;
+  text-transform: capitalize;
+  opacity: 1;
+  font-size: 15px;
+  font-weight: 450;
+}
+
+.paragraph4 {
+  position: absolute;
+  top:200px;
+  font-size: 16px;
+  left: 20px;
+  width: 370px;
+  font-family: 'Rubik';
+  color: #1D2226;
+  opacity: 1;
+  font-weight:500;
+  text-align:left;
+}
+
+  
+  @media (max-width: 375px) {
+    .photo,
+    .camera-icon,
+    .name,
+    .email,
+    .paragraph {
+      position: static;
+      width: auto;
+      text-align: center;
+      margin: 10px auto;
+    }
+    
+    .navbar {
+      height: 68px;
+    }
+  }
+  

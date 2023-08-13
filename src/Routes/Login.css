@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
+
+.container3 {
+  position: relative;
+  width: 100%;
+  max-width: 375px;
+  background: #FFFFFF;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-left: -17px;
+  
+}
+
+.heading3 {
+  margin-bottom: 15px; 
+  font-family: 'Rubik'  ;
+  font-size: 28px;
+  font-weight: medium;
+  color: #1D2226;
+  margin-left: 20px;
+  text-align:left;
+  width:200px;
+  
+}
+.paragraphl {
+  margin-bottom: 20px;
+  font-family: 'Rubik';
+  font-size: 18px;
+  color: #1D2226;
+  opacity: 0.6;
+  margin-left: 20px;
+  text-align:left;
+}
+
+.formFieldContainer3 {
+  margin-bottom: 20px;
+  margin-left: 20px;
+}
+
+.formLabel3 {
+  display: block;
+  font-family: 'Rubik';
+  font-size: 12px;
+  color: #1D2226;
+  opacity: 0.6;
+  margin-bottom: -8px;
+  margin-left: 5px;
+  text-align: left;
+  color: #6C25FF;
+  font-size: 13px;
+  font-weight: 800;
+  background-color: #FFFFFF;
+  padding: 0 4px;
+}
+
+.formField3 {
+  height: 40px;
+  border: 1px solid #CBCBCB;
+  border-radius: 6px;
+  opacity: 1;
+  padding: 8px;
+  box-sizing: border-box;
+  font-family: 'Rubik';
+  font-size: 13px;
+  color: #CBCBCB;
+  font-weight: 370;
+  width: 105%;
+  opacity: 1;
+}
+
+.dashed-line {
+  border-top: 1px dashed #000000; 
+  margin: 20px 0; 
+}
+
+.bottom-dashed-line {
+  border-bottom: 1px dashed #000000; 
+  margin: 20px 0; 
+}
+
+.loginButton3 {
+  position: absolute;
+  top: 320px; 
+  left: 20px;
+  width: 330px;
+  height: 46px;
+  background: #CBCBCB;
+  border: none;
+  border-radius: 6px;
+  color: #FFFFFF;
+  font-family: 'Rubik';
+  text-align: center;
+  letter-spacing: 0px;
+  opacity: 1;
+  cursor: pointer;
+  margin-left: 20px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+@media (max-width: 375px) {
+  .container {
+    max-width: 100%;
+  }
+
+  .heading {
+    font-size: 22px;
+  }
+
+  .paragraph {
+    font-size: 14px;
+  }
+
+  .formField,
+  .loginButton {
+    width: 100%;
+  }
+}

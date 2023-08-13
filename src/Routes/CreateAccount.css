@@ -1,0 +1,141 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300;400;500;600&display=swap');
+
+.newContainer {
+  position: relative;
+  width: 100%;
+  max-width: 375px;
+  background: #FFFFFF;
+  padding: 20px;
+  box-sizing: border-box;
+  margin-left: -20px; /* Remove the negative margin-left */
+}
+.newRadioContainer {
+    display: flex;
+    align-items: center;
+    margin-top: 17px;
+    margin-left:5px;
+  
+  }
+ 
+  .newRadio {
+    position: relative;
+    width: 22px;
+    height: 22px;
+    margin-right: 10px;
+    background-color: #FFFFFF; /* Default background color */
+    border-radius: 50%;
+    cursor: pointer;
+    border: 1px solid #CBCBCB;
+    transition: border-color 0.2s ease-in-out;
+  }
+  
+  .newRadio::before {
+    content: '';
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 10px;
+    height: 10px;
+    background-color: transparent;
+    border-radius: 50%;
+    transition: background-color 0.2s ease-in-out;
+  }
+  
+  .newRadio input[type="radio"]:checked + .newRadio::before {
+    background-color: #6C25FF; /* Change the dot color when radio is checked */
+  }
+
+.newHeading {
+  text-align: left;
+  margin-bottom: 20px;
+  font-family: 'Rubik', sans-serif;
+  font-size: 28px;
+  font-weight: medium;
+  color: #1D2226;
+  margin-left: 20px;
+}
+
+.newFormFieldContainer {
+  margin-bottom: 25px;
+  margin-left: 20px;
+}
+
+.newFormLabel {
+  display: block;
+  font-family: 'Rubik';
+  font-size: 12px;
+  color: #1D2226;
+  opacity: 0.6;
+  margin-bottom: -8px;
+  margin-left: 5px;
+  text-align: left;
+  color: #6C25FF;
+  font-size: 13px;
+  font-weight: 800;
+  background-color: #FFFFFF;
+  padding: 0 4px;
+}
+
+.newFormField {
+  height: 40px;
+  border: 1px solid #CBCBCB;
+  border-radius: 6px;
+  opacity: 1;
+  padding: 8px;
+  box-sizing: border-box;
+  font-family: 'Rubik';
+  font-size: 14px;
+  color: #1D2226;
+  font-weight: 370;
+  top: 204px;
+  left: 20px;
+  width: 335px;
+  opacity: 1;
+  font-weight: 500;
+}
+
+.newLoginButton {
+  position: absolute;
+  bottom: -200px; /* Place at the bottom of the container */
+  left: 20px;
+  width: 335px;
+  height: 46px;
+  background: #6C25FF;
+  border: none;
+  border-radius: 6px;
+  color: #FFFFFF;
+  font-family: 'Rubik';
+  text-align: center;
+  letter-spacing: 0px;
+  opacity: 1;
+  cursor: pointer;
+  margin-left: 20px;
+  font-size: 16px;
+  font-weight: 500;
+}
+
+.mandatory {
+    color: red;
+    margin-left: 0px; /* Adjust the spacing between the label and the asterisk */
+  }
+
+
+/* Media query for screens with a maximum width of 375px (iPhone X) */
+@media (max-width: 375px) {
+  .newContainer {
+    max-width: 100%;
+  }
+
+  .newHeading {
+    font-size: 22px;
+  }
+
+  .newFormField,
+  .newLoginButton {
+    width: 100%;
+  }
+
+  /* Adjust other styles for smaller screens */
+}
+
